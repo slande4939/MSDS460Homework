@@ -7,3 +7,5 @@ Ensure that lines 11 and 16 of the program amplpy-diet-example.py refer to the d
 Reference
 
 Fourer, Robert, David M. Gay, and Brian W. Kernighan. 2003. *AMPL: A Modeling Language for Mathematical Programming* (second edition). Belmont, CA: Brooks/Cole. [ISBN-13: 978-0-534-38809-6] Chapter 2, Diet and Other Input Models: Minimizing Costs, pages 27–42.
+
+Thank you!
