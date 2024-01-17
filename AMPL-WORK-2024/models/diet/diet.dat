@@ -1,0 +1,29 @@
+data;
+
+set NUTR := Sodium Energy Protein VitaminD Calcium Iron Potassium ;
+set FOOD := Almonds Brown_Rice Greek_Yogurt Pizza Tofu_Vegetables_Hash_Brown ;
+
+param:   cost  f_min  f_max :=
+  Almonds                   0.6242   0   100
+  Brown_Rice                0.7488   0   100
+  Greek_Yogurt              1.49     0   100
+  Pizza                     2.8725   0   100
+  Tofu_Vegetables_Hash_Brown 6.99    0   100 ;
+
+param:   n_min  n_max :=
+   Sodium     0     35000
+   Energy  14000   100000
+   Protein  350    10000
+   VitaminD  140    10000
+   Calcium  9100   100000
+   Iron     126    10000
+   Potassium 32900 100000 ;
+
+param amt (tr):
+                   Sodium Energy Protein VitaminD Calcium Iron Potassium :=
+   Almonds               0   1120    42       0    490    7.7  1400
+   Brown_Rice            0   1680    35       0     70    6.3   910
+   Greek_Yogurt         55    770    84       0     70    0    280
+   Pizza               630   1890    70      2.8   1260   13.3  1820
+   Tofu_Vegetables_Hash_Brown 790  2940   140      0   1050   25.2  5880 ;
+
